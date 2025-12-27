@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial'; 
+    border: none;
+}
+
+#upper{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+#logo{
+    width: 70px;
+    height: 40px;
+}
+
+#img{
+    background-image: url(amazon_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 70px;
+}
+
+#upper2 p {
+    font-size: 1rem;
+}
+
+#search{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+#select{
+    padding: 3px;
+    color: black;
+    background-color: whitesmoke;
+     border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+    
+}
+
+#search input{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+}
+button{
+    background-color: orange;
+    padding: 5px 10px;
+    border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+}
+
+#lang select{
+    height: 30px;
+    width: 35px;
+    color: white;
+    background-color: transparent;
+}
+
+#signin{
+    font-size: 0.7rem;
+}
+#signin p{
+    font-size: 0.6rem;
+}
+#returns p{
+    font-size: 0.7rem;
+}
+
+#returns pre{
+    font-size: 0.65rem;
+}
+
+
+#headbtm{
+    background-color: rgba(35, 29, 29, 0.767) ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    height: 35px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 15px 10px;
+}
+
+#hero{
+    height: 350px;
+}
+#heroimg{
+    background-image: url(hero.png);
+    background-size: contain;
+ display: flex;
+ align-items: flex-end;
+    height: 350px;
+    justify-content: center;
+   
+}
+#heroimg p{
+    background-color: white;
+    color: black; 
+    margin-bottom: 20px;
+    padding: 5px 0px;
+    border-radius: 10px;
+      
+}
+#heromsg{
+    width: 90%;
+    text-align: center;
+}
+#shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(35, 29, 29, 0.767) ;
+    
+}
+.box{
+    width: 23%;
+    height: 300px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.prodimg{
+    height: 180px;
+    width: 200px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.topic p{
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 900;
+}
+
+.box a{
+    color: black;
+    margin-top: 15px;
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+
+#foot-top{
+    background-color: rgb(49, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+#foot-top a{
+    text-decoration: underline;
+}
+
+
+#foot-links{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(30, 30, 46);
+    padding-bottom: 20px;
+    
+    color: wheat;
+   
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 15px;
+    font-size: 0.8rem;
+}
+
+.foot-links strong{
+font-size: 1.1rem;
+color: white;
+}
+
+.foot-links{
+    margin-top: 20px;
+    
+}
+
+#foot-img{
+    background-image: url(amazon_logo.png);
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+}
+#footimg{
+    background-color: rgb(25, 25, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.effect{
+    border: 1px solid transparent;
+        transition: all 0.1s ease-in-out;
+        padding: 2px 5px;
+
+}
+.effect:hover{
+    border: 1px solid white;
+   
+    
+}
+#search{
+    transition: all 0.5s ease-in-out;
+}
+
+#search:hover{
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+#shop{
+        transition: all 0.5s ease-in-out;
+
+}
+#shop:hover{
+    padding: 2px;
+}
+#heroimg{
+        transition: all 0.5s ease-in-out;
+
+}
+#heroimg:hover{
+    transform: scale(1.01);
+}
+
+.box{
+        transition: all 0.5s ease-in-out;
+
+}
+
+.box:hover{
+    transform: scale(1.09);
+}
+
+.box a{
+        transition: all 0.5s ease-in;
+
+}
+.box a:hover{
+    transform: scale(1.2);
+    padding: 2px 5px;
+    text-decoration: none;
+}
+
+#heromsg{
+        transition: all 0.5s ease-in-out;
+
+}
+
+#heromsg:hover{
+    transform: scale(1.07);
+}
+li{
+        transition: all 0.5s ease-in-out;
+
+}
+li:hover{
+    text-decoration: underline;
+}
